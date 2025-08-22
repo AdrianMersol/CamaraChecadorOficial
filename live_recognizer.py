@@ -106,7 +106,7 @@ def largest_k_faces(faces, k=2):
 
 def main():
     parser = argparse.ArgumentParser(description="Live face recognition over RTSP using InsightFace + FAISS.")
-    parser.add_argument("--rtsp", default="rtsp://admin:misCamaras2025@192.168.1.64:554/Streaming/Channels/101",
+    parser.add_argument("--rtsp", default="rtsp://admin:misCamaras2025@192.168.1.64:554/Streaming/Channels/102",
                         help="URL RTSP de la cámara Hikvision.")
     parser.add_argument("--artifacts", default="artifacts", help="Carpeta con index.faiss, face_db.sqlite, embeddings.npy.")
     parser.add_argument("--pack", default="buffalo_s", help="Paquete InsightFace (buffalo_s|buffalo_l).")
