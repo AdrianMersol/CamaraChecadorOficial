@@ -138,6 +138,8 @@ def clahe_gamma(img, gamma=1.3):
     return out
 
 # -------------------- Main --------------------
+# -------------------- Main --------------------
+
 def main():
     parser = argparse.ArgumentParser(description="Live face recognition + auto-capture with InsightFace + FAISS.")
     parser.add_argument("--rtsp", default="rtsp://admin:misCamaras2025@192.168.1.64:554/Streaming/Channels/102?tcp")
